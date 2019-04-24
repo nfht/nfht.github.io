@@ -1,0 +1,4 @@
+Sitemap: https://www.tothill.org/sitemapindex.xml
+
+User-Agent: *
+Host: www.tothill.org

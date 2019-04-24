@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nick Tothill</title><link>https://www.tothill.org/</link><description>Nick Tothill on the Web</description><atom:link href="https://www.tothill.org/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:tothill@gmail.com"&gt;Nick Tothill&lt;/a&gt; </copyright><lastBuildDate>Tue, 23 Apr 2019 03:45:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Setting up multiple laptops</title><link>https://www.tothill.org/blog/setting-up-multiple-laptops/</link><dc:creator>Nick Tothill</dc:creator><description>&lt;div&gt;&lt;p&gt;I need to be able to run multiple laptops so that I can switch between them fairly seamlessly. This is for everyday reasons (I can use a small laptop when I'm moving around a lot; a larger one to do research work)  and for less-everyday ones - I can easily run up a new laptop with little overhead; can do major upgrades etc.&lt;/p&gt;
+&lt;p&gt;Right now, scorpius (a Dell Precision with ubuntu preinstalled) is not doing wireless, and I suspect that an upgrade broke it. I need to do a factory reinstall and then upgrade from there to see what happens. So I need another laptop running email at least!&lt;/p&gt;
+&lt;p&gt;I have a couple of old small laptops available - an oldish HP dm1 and an old Thinkpad X201. I want to get one or both of them up and running. Possible distros are vanilla Ubuntu, KDE Neon (ie Ubuntu LTS with KDE Plasma desktop), Lubuntu, BunsenLabs ...&lt;/p&gt;
+&lt;p&gt;to do email:
+IMAP: thunderbird talking to all IMAP accounts, including Gmail and Fastmail
+thunderbird's local storage needs to be synced - this is currently done with SpiderOak, but I find spideroak a bit opaque, so it's hard to be absolutely sure it's working. It would be better to run my own sync mechanism with nextcloud (?), but this is a todo. So for now, spideroak is needed.
+Local email storage can be copied from one machine to another by sneakernet, and then synced through spideroak, to save having to download everything!
+Exchange: Hiri works well to talk to my westernsydney.edu.au work email. Well enough that I'll pay for it! It doesn't really do local storage in an easily-accessible way.
+VPN: scem.westernsydney.edu.au email requires openVPN to send email - install and test&lt;/p&gt;
+&lt;p&gt;todo list:
+- transfer local email storage
+- spideroak; sync local email
+- thunderbird; set up accounts including local storage
+- hiri
+- openvpn; test email send from scem&lt;/p&gt;&lt;/div&gt;</description><guid>https://www.tothill.org/blog/setting-up-multiple-laptops/</guid><pubDate>Tue, 23 Apr 2019 01:52:26 GMT</pubDate></item></channel></rss>
