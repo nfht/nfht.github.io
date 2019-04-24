@@ -7,10 +7,9 @@
 .. description: 
 .. type: text
 
-.. raw:: html
 
-	 	<p><img src="./nfht_small.jpg" alt="" class="left" width="180" height="180"></p>
-   
+.. image:: /images/nfht_small.jpg
+	   
 I'm a Senior Lecturer in the Astrophysical e-Science Laboratory of the 
 School of Computing, Engineering and Mathematics, Western Sydney University.
 My research interests are in observational astronomy and astrophysics,
